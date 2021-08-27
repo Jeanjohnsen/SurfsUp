@@ -20,4 +20,4 @@ Easy review implementation with images
 
 ##Style guide
 ### Color scheme
-![Color scheme](https://imgur.com/a/j0Z8ylq)
+![Color scheme](https://i.imgur.com/P3vj7L1.png)
