@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Contents\Images\" />
+    <Folder Include="wwwroot\Contents\Fonts\" />
+  </ItemGroup>
+
 </Project>
