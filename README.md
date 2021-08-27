@@ -19,5 +19,9 @@ Gear rental system where users can rent out their surfing equipment.
 Easy review implementation with images
 
 ## Style guide
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5a812f5c23296d305d82b90a6d2bb4566fc17b1e
 ### Color scheme
 ![Color scheme](https://i.imgur.com/P3vj7L1.png)
