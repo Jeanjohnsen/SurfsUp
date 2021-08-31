@@ -13,14 +13,22 @@ namespace SurfsUp.Models
         public int Id
         {
             get { return id; }
-            set { id = value; }
+            set { }
         }
 
+        [ForeignKey("Equipment")]
         private int equipmentId;
         public int EquipmentId
         {
             get { return equipmentId; }
             set { equipmentId = value; }
+        }
+
+        private Equipment equipment;
+        public Equipment Equipment
+        {
+            get { return equipment; }
+            set { equipment = value; }
         }
 
         private int reservedById;

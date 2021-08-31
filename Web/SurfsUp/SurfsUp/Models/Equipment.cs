@@ -13,7 +13,7 @@ namespace SurfsUp.Models
         public int Id
         {
             get { return id; }
-            set { id = value; }
+            set { }
         }
 
         private string name;
@@ -63,6 +63,5 @@ namespace SurfsUp.Models
             get { return reservations; }
             set { reservations = value; }
         }
-
     }
 }
