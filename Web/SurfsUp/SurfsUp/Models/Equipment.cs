@@ -9,17 +9,6 @@ namespace SurfsUp.Models
     public class Equipment
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        /* 
-         * id
-         * name
-         * availableFrom
-         * availableTo
-         * 
-         * location
-         * 
-         *
-         *
-        */
         private int id;
         public int Id
         {
@@ -61,8 +50,11 @@ namespace SurfsUp.Models
             set { location = value; }
         }
 
-
-
-
+        private int renterId;
+        public int RenterId
+        {
+            get { return renterId; }
+            set { renterId = value; }
+        }
     }
 }
