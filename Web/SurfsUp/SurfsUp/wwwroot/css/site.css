@@ -1,15 +1,75 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+/* Header */
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 76px;
+    background: #005F89;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-/* Provide sufficient contrast against white background */
+.nav-item {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    margin: auto;
+}
+
+.nav-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.nav-logo {
+    display: inline-block;
+    margin: auto;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.nav-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    /* identical to box height, or 80% */
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    /* 03. On Primary / High Emphasis */
+    color: #FFFFFF;
+    margin: auto;
+}
+
+.nav-text a:hover {
+    color: #e6eceb !important;
+}
+
+.nav-text a:active a:focus {
+    color: #FFFFFF !important;
+}
+
+.filter-white {
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(53deg) brightness(103%) contrast(102%);
+}
+
+
 a {
-  color: #0366d6;
+  color: #FFFFFF;
+  font-family: Roboto;
 }
 
 .btn-primary {
@@ -70,6 +130,9 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 
-.material-icons.blue {
-    color: #0093b7;
+.material-icons.icon {
+    display: inline-block;
+    color: #FFFFFF;
+    width: 28px;
+    height: 28px;
 }

@@ -23,6 +23,13 @@ namespace SurfsUp.Models
             set { surfSpotId = value; }
         }
 
+        private SurfSpot surfSpot;
+        public SurfSpot SurfSpot
+        {
+            get { return surfSpot; }
+            set { surfSpot = value; }
+        }
+
         private DateTime timeOfData;
         public DateTime TimeOfData
         {

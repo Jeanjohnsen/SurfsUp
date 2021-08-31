@@ -37,5 +37,19 @@ namespace SurfsUp.Models
             get { return lattitude; }
             set { lattitude = value; }
         }
+
+        private ICollection<SpotData> spotData;
+        public ICollection<SpotData> SpotData
+        {
+            get { return spotData; }
+            set { spotData = value; }
+        }
+
+        private ICollection<Assessment> assessments;
+        public ICollection<Assessment> Assessments
+        {
+            get { return assessments; }
+            set { assessments = value; }
+        }
     }
 }

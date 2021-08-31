@@ -56,5 +56,13 @@ namespace SurfsUp.Models
             get { return renterId; }
             set { renterId = value; }
         }
+
+        private ICollection<Reservation> reservations;
+        public ICollection<Reservation> Reservations
+        {
+            get { return reservations; }
+            set { reservations = value; }
+        }
+
     }
 }
