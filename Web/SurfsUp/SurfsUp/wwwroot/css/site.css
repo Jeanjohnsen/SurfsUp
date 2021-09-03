@@ -6,6 +6,7 @@ header {
     display: flex;
     position: fixed;
     width: 100vw;
+    height: 75px;
     background: #005F89;
     align-content: center;
 }
@@ -20,6 +21,7 @@ header {
     letter-spacing: 1.25px;
     text-transform: uppercase;
     color: #FFFFFF;
+    display: inline-block;
     margin: auto;
 }
 
@@ -28,6 +30,10 @@ header {
     color: #FFFFFF;
     font-family: Roboto;
     font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2%;
+    margin-right: auto;
 }
 
 .nav-title {
@@ -44,12 +50,14 @@ header {
     color: #FFFFFF;
 }
 
-.nav-text a:hover {
-    color: #e6eceb !important;
+.nav-text.hover {
+    color: #e6eceb;
+    border-bottom: 1px solid #e6eceb;
 }
 
-.nav-text a:active a:focus {
-    color: #FFFFFF !important;
+.nav-text.active {
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
 }
 
 .filter-white {
@@ -63,12 +71,6 @@ a {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
@@ -122,7 +124,9 @@ body {
 
 .material-icons.icon {
     display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 2%;
     color: #FFFFFF;
-    width: 28px;
-    height: 28px;
 }
