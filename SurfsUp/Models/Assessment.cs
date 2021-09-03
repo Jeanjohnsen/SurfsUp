@@ -14,9 +14,10 @@ namespace SurfsUp.Models
         public int Id
         {
             get { return id; }
-            set { id = value; }
+            set { }
         }
 
+        [ForeignKey("SurfSpot")]
         private int surfSpotId;
         public int SurfSpotId
         {
