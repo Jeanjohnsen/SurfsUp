@@ -23,6 +23,16 @@ namespace SurfsUp.Controllers
             return View();
         }
 
+        public IActionResult SurfSpots()
+        {
+            return View();
+        }
+
+        public IActionResult Udstyr()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

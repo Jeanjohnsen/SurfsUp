@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="~/css/site.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
+
 </head>
 <body>
     <header>
-
             <div class="nav-logo">
                 <img class="filter-white" src="~/Contents/svgs/logo.svg" alt="SurfsUp logo" />
                 <a class="nav-title">Surfsup</a>
@@ -20,10 +20,30 @@
                 <a class="nav-text" asp-area="" asp-controller="Home" asp-action="Udstyr">Udstyr</a>
 
             <span class="material-icons icon">person</span>
+
+
+        <div class="container">
+            <div class="nav-logo">
+                <img class="filter-white" src="~/Contents/svgs/logo.svg" alt="SurfsUp logo" />
+                <a class="nav-title">Surfsup</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#">Surf spots</a></li>
+                    <li><a href="#">Udstyr</a></li>
+                    <li><a class="material-icons icon" href="#">person</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
     </header>
 
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div class="content">
+        <main role="main">
             @RenderBody()
         </main>
     </div>
